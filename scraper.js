@@ -4,7 +4,7 @@ const cheerio = require("cheerio");
 const request = require("request");
 
 // url we are scraping
-const url = "https://www.sourcewell-mn.gov/cooperative-purchasing/082114-ctp-1";
+const url = "https://www.sourcewell-mn.gov/cooperative-purchasing/022217-wex";
 
 request(url, function(error, response, html) {
   // note: '$' is a shorthand for cheerio's selector commands, much like jQuery's '$'
